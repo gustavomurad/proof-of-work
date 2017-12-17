@@ -1,0 +1,14 @@
+{
+  "name": "proof-of-work",
+  "version": "0.0.1",
+  "description": "Simple implementation of PoW (Proof of Work)",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "author": "Gustavo Murad <gustavomurad@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
