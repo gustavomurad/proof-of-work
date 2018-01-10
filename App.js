@@ -41,7 +41,7 @@ let validateProofofWork = (user) => {
     return (user.proofOfWork === SHA256(user.displayName + user.email + user.password +user.nonce).toString())? true : false;
 };
 
-//Recive a new user from login form, and calculate the prrof of work, 
+//Recive a new user from login form, and calculate the prof of work, 
 //this will make the work of a robot more difficult;
 let user = new User('Satoshi Nakamoto', 'snakamoto@bitcoin.org', 'asdf1234' );
 console.log(user.JSON);
